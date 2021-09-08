@@ -1,0 +1,91 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+.wrapper {
+  background: url("bg1.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.4);
+  height: 120px;
+  width: 100%;
+}
+.navbar img {
+  width: 120px;
+  margin-top: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: orangered;
+  border-radius: 2px;
+  outline: none;
+}
+.wrapper .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center h1 {
+  color: white;
+  width: 900px;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+.center h2 {
+  color: white;
+  margin-top: -5px;
+  width: 800px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.center .buttons {
+  margin: 35px 280px;
+}
+.buttons button {
+  text-align: center;
+  padding: 10px;
+  background: orangered;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none;
+  transition: 3s;
+  border: none;
+}
+.btn {
+  padding-right: 10px;
+  margin-left: 30px;
+}
+.buttons button:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    background-color: red;
+  }
+}
